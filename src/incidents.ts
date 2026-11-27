@@ -11,6 +11,12 @@
 // A bucket fires an incident when it has enough errors and its error
 // rate clearly exceeds baseline. Neighbouring firing buckets merge
 // into one incident. Nothing here calls a model or the network.
+//
+// Baselines are computed from clean buckets only: firing buckets are
+// excluded from the baseline median. A sustained spike would otherwise
+// inflate its own baseline and mask its early buckets, so the firing
+// set is computed iteratively until it stops growing (see
+// detectForSource).
 
 import type { LogEntry } from "./parser.js";
 import {
@@ -94,46 +100,71 @@ function makeBuckets(entries: LogEntry[]): Bucket[] {
   return buckets;
 }
 
-function baselineRates(buckets: Bucket[], index: number): number[] {
+function baselineRates(buckets: Bucket[], index: number, firing?: boolean[]): number[] {
   const rates: number[] = [];
   for (let i = 0; i < buckets.length; i += 1) {
     if (i === index) continue;
+    if (firing && firing[i]) continue;
     if (buckets[i].entries.length >= 3) rates.push(errorRate(buckets[i].entries));
   }
   return rates;
 }
 
-function baselineVolumes(buckets: Bucket[], index: number): number[] {
+function baselineVolumes(buckets: Bucket[], index: number, firing?: boolean[]): number[] {
   const volumes: number[] = [];
   for (let i = 0; i < buckets.length; i += 1) {
     if (i === index) continue;
+    if (firing && firing[i]) continue;
     volumes.push(buckets[i].entries.length);
   }
   return volumes;
 }
 
-function baselineP95(buckets: Bucket[], index: number): number | null {
+function baselineP95(buckets: Bucket[], index: number, firing?: boolean[]): number | null {
   const values: number[] = [];
   for (let i = 0; i < buckets.length; i += 1) {
     if (i === index) continue;
+    if (firing && firing[i]) continue;
     const p95 = latencyStats(buckets[i].entries).p95Ms;
     if (p95 !== null) values.push(p95);
   }
   return values.length > 0 ? median(values) : null;
 }
 
-function detectForSource(source: string, entries: LogEntry[]): Incident[] {
-  const buckets = makeBuckets(entries);
-  if (buckets.length < 3) return [];
-
-  const firing: boolean[] = buckets.map((bucket, i) => {
+function firingPass(buckets: Bucket[], firing: boolean[] | null): boolean[] {
+  return buckets.map((bucket, i) => {
     if (bucket.errors.length < 3) return false;
     if (bucket.entries.length < 5) return false;
     const rate = errorRate(bucket.entries);
     if (rate < 0.25) return false;
-    const baseline = Math.max(median(baselineRates(buckets, i)), 0.02);
+    const baseline = Math.max(median(baselineRates(buckets, i, firing ?? undefined)), 0.02);
     return rate >= 2 * baseline;
   });
+}
+
+function sameFiring(a: boolean[], b: boolean[]): boolean {
+  return a.length === b.length && a.every((value, i) => value === b[i]);
+}
+
+function detectForSource(source: string, entries: LogEntry[]): Incident[] {
+  const buckets = makeBuckets(entries);
+  if (buckets.length < 3) return [];
+
+  // Compute firing iteratively. The first pass uses the plain baseline
+  // (all other buckets); later passes exclude firing buckets from the
+  // baseline, so a sustained spike stops inflating its own baseline
+  // and its early buckets start firing. Excluding firing buckets can
+  // only lower the baseline, so the firing set only grows and this
+  // reaches a fixed point within a few passes.
+  let firing = firingPass(buckets, null);
+  let next = firingPass(buckets, firing);
+  let guard = 0;
+  while (!sameFiring(firing, next) && guard < buckets.length + 1) {
+    firing = next;
+    next = firingPass(buckets, firing);
+    guard += 1;
+  }
+  firing = next;
 
   const incidents: Incident[] = [];
   let i = 0;
@@ -149,13 +180,13 @@ function detectForSource(source: string, entries: LogEntry[]): Incident[] {
     const groupErrors = group.flatMap((b) => b.errors);
     const observedRate = errorRate(groupEntries);
     const baseline = Math.max(
-      median(group.flatMap((_, k) => baselineRates(buckets, i + k))),
+      median(group.flatMap((_, k) => baselineRates(buckets, i + k, firing))),
       0.02,
     );
-    const usualVolume = median(baselineVolumes(buckets, i));
+    const usualVolume = median(baselineVolumes(buckets, i, firing));
     const groupVolume = groupEntries.length / group.length;
     const groupP95 = latencyStats(groupEntries).p95Ms;
-    const usualP95 = baselineP95(buckets, i);
+    const usualP95 = baselineP95(buckets, i, firing);
 
     const signals: IncidentSignal[] = [
       {
