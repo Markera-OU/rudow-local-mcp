@@ -1,0 +1,165 @@
+{"timestamp": "2026-11-27T09:00:00Z", "level": "warn", "message": "POST /api/orders 404", "status": 404, "route": "/api/orders", "method": "POST", "latency_ms": 54}
+{"timestamp": "2026-11-27T09:00:03Z", "level": "info", "message": "Cache refresh completed for product catalog"}
+{"timestamp": "2026-11-27T09:00:17Z", "level": "warn", "message": "POST /api/users 404", "status": 404, "route": "/api/users", "method": "POST", "latency_ms": 64}
+{"timestamp": "2026-11-27T09:00:32Z", "level": "info", "message": "GET /api/products 200", "status": 200, "route": "/api/products", "method": "GET", "latency_ms": 51}
+{"timestamp": "2026-11-27T09:00:35Z", "level": "info", "message": "Worker heartbeat ok"}
+{"timestamp": "2026-11-27T09:00:55Z", "level": "info", "message": "POST /api/orders 200", "status": 200, "route": "/api/orders", "method": "POST", "latency_ms": 67}
+{"timestamp": "2026-11-27T09:01:14Z", "level": "info", "message": "GET /api/products 200", "status": 200, "route": "/api/products", "method": "GET", "latency_ms": 30}
+{"timestamp": "2026-11-27T09:01:40Z", "level": "info", "message": "GET /api/cart 200", "status": 200, "route": "/api/cart", "method": "GET", "latency_ms": 76}
+{"timestamp": "2026-11-27T09:01:58Z", "level": "info", "message": "POST /api/users 200", "status": 200, "route": "/api/users", "method": "POST", "latency_ms": 81}
+{"timestamp": "2026-11-27T09:02:15Z", "level": "info", "message": "GET /api/orders 200", "status": 200, "route": "/api/orders", "method": "GET", "latency_ms": 45}
+{"timestamp": "2026-11-27T09:02:33Z", "level": "info", "message": "GET /api/users 200", "status": 200, "route": "/api/users", "method": "GET", "latency_ms": 81}
+{"timestamp": "2026-11-27T09:02:36Z", "level": "info", "message": "Background job order-cleanup finished in 412ms"}
+{"timestamp": "2026-11-27T09:02:54Z", "level": "info", "message": "GET /api/cart 200", "status": 200, "route": "/api/cart", "method": "GET", "latency_ms": 34}
+{"timestamp": "2026-11-27T09:03:14Z", "level": "info", "message": "GET /api/products 200", "status": 200, "route": "/api/products", "method": "GET", "latency_ms": 65}
+{"timestamp": "2026-11-27T09:03:36Z", "level": "info", "message": "GET /api/cart 200", "status": 200, "route": "/api/cart", "method": "GET", "latency_ms": 44}
+{"timestamp": "2026-11-27T09:04:01Z", "level": "info", "message": "POST /api/users 200", "status": 200, "route": "/api/users", "method": "POST", "latency_ms": 75}
+{"timestamp": "2026-11-27T09:04:04Z", "level": "info", "message": "Background job order-cleanup finished in 412ms"}
+203.0.113.10 - - [27/Nov/2026:09:04:12 +0000] "GET /api/orders HTTP/1.1" 200 1842
+{"timestamp": "2026-11-27T09:04:28Z", "level": "info", "message": "POST /api/users 200", "status": 200, "route": "/api/users", "method": "POST", "latency_ms": 68}
+{"timestamp": "2026-11-27T09:04:56Z", "level": "info", "message": "GET /api/users 200", "status": 200, "route": "/api/users", "method": "GET", "latency_ms": 52}
+{"timestamp": "2026-11-27T09:05:13Z", "level": "info", "message": "POST /api/orders 200", "status": 200, "route": "/api/orders", "method": "POST", "latency_ms": 50}
+{"timestamp": "2026-11-27T09:05:41Z", "level": "info", "message": "GET /api/orders 200", "status": 200, "route": "/api/orders", "method": "GET", "latency_ms": 69}
+{"timestamp": "2026-11-27T09:05:56Z", "level": "info", "message": "GET /api/orders 200", "status": 200, "route": "/api/orders", "method": "GET", "latency_ms": 57}
+{"timestamp": "2026-11-27T09:06:21Z", "level": "info", "message": "POST /api/orders 200", "status": 200, "route": "/api/orders", "method": "POST", "latency_ms": 40}
+{"timestamp": "2026-11-27T09:06:44Z", "level": "info", "message": "POST /api/products 200", "status": 200, "route": "/api/products", "method": "POST", "latency_ms": 65}
+{"timestamp": "2026-11-27T09:07:05Z", "level": "info", "message": "POST /api/products 200", "status": 200, "route": "/api/products", "method": "POST", "latency_ms": 58}
+{"timestamp": "2026-11-27T09:07:30Z", "level": "warn", "message": "GET /api/users 404", "status": 404, "route": "/api/users", "method": "GET", "latency_ms": 74}
+{"timestamp": "2026-11-27T09:07:33Z", "level": "info", "message": "Cache refresh completed for product catalog"}
+{"timestamp": "2026-11-27T09:07:47Z", "level": "info", "message": "GET /api/orders 200", "status": 200, "route": "/api/orders", "method": "GET", "latency_ms": 88}
+203.0.113.10 - - [27/Nov/2026:09:07:48 +0000] "GET /static/app.js HTTP/1.1" 200 48120
+{"timestamp": "2026-11-27T09:08:06Z", "level": "info", "message": "GET /api/products 200", "status": 200, "route": "/api/products", "method": "GET", "latency_ms": 35}
+{"timestamp": "2026-11-27T09:08:34Z", "level": "info", "message": "GET /api/products 200", "status": 200, "route": "/api/products", "method": "GET", "latency_ms": 69}
+{"timestamp": "2026-11-27T09:08:37Z", "level": "info", "message": "Background job order-cleanup finished in 412ms"}
+{"timestamp": "2026-11-27T09:09:01Z", "level": "info", "message": "GET /api/cart 200", "status": 200, "route": "/api/cart", "method": "GET", "latency_ms": 37}
+{"timestamp": "2026-11-27T09:09:04Z", "level": "info", "message": "Cache refresh completed for product catalog"}
+{"timestamp": "2026-11-27T09:09:26Z", "level": "info", "message": "POST /api/orders 200", "status": 200, "route": "/api/orders", "method": "POST", "latency_ms": 54}
+{"timestamp": "2026-11-27T09:09:29Z", "level": "info", "message": "Worker heartbeat ok"}
+{"timestamp": "2026-11-27T09:09:42Z", "level": "info", "message": "POST /api/products 200", "status": 200, "route": "/api/products", "method": "POST", "latency_ms": 46}
+{"timestamp": "2026-11-27T09:09:45Z", "level": "info", "message": "Cache refresh completed for product catalog"}
+{"timestamp": "2026-11-27T09:10:05Z", "level": "info", "message": "POST /api/users 200", "status": 200, "route": "/api/users", "method": "POST", "latency_ms": 95}
+{"timestamp": "2026-11-27T09:10:08Z", "level": "info", "message": "Background job order-cleanup finished in 412ms"}
+{"timestamp": "2026-11-27T09:10:33Z", "level": "info", "message": "GET /api/products 200", "status": 200, "route": "/api/products", "method": "GET", "latency_ms": 47}
+{"timestamp": "2026-11-27T09:11:02Z", "level": "info", "message": "GET /api/orders 200", "status": 200, "route": "/api/orders", "method": "GET", "latency_ms": 46}
+203.0.113.10 - - [27/Nov/2026:09:11:03 +0000] "POST /api/cart HTTP/1.1" 201 312
+{"timestamp": "2026-11-27T09:11:05Z", "level": "info", "message": "Worker heartbeat ok"}
+{"timestamp": "2026-11-27T09:11:27Z", "level": "info", "message": "POST /api/orders 200", "status": 200, "route": "/api/orders", "method": "POST", "latency_ms": 68}
+{"timestamp": "2026-11-27T09:11:30Z", "level": "info", "message": "Cache refresh completed for product catalog"}
+{"timestamp": "2026-11-27T09:11:50Z", "level": "info", "message": "GET /api/users 200", "status": 200, "route": "/api/users", "method": "GET", "latency_ms": 91}
+{"timestamp": "2026-11-27T09:12:08Z", "level": "info", "message": "GET /api/orders 200", "status": 200, "route": "/api/orders", "method": "GET", "latency_ms": 40}
+{"timestamp": "2026-11-27T09:12:30Z", "level": "info", "message": "GET /api/products 200", "status": 200, "route": "/api/products", "method": "GET", "latency_ms": 50}
+{"timestamp": "2026-11-27T09:12:50Z", "level": "warn", "message": "GET /api/users 404", "status": 404, "route": "/api/users", "method": "GET", "latency_ms": 93}
+{"timestamp": "2026-11-27T09:13:20Z", "level": "info", "message": "POST /api/products 200", "status": 200, "route": "/api/products", "method": "POST", "latency_ms": 28}
+{"timestamp": "2026-11-27T09:13:36Z", "level": "info", "message": "GET /api/cart 200", "status": 200, "route": "/api/cart", "method": "GET", "latency_ms": 62}
+{"timestamp": "2026-11-27T09:13:56Z", "level": "info", "message": "POST /api/orders 200", "status": 200, "route": "/api/orders", "method": "POST", "latency_ms": 51}
+{"timestamp": "2026-11-27T09:13:59Z", "level": "info", "message": "Cache refresh completed for product catalog"}
+{"timestamp": "2026-11-27T09:14:18Z", "level": "info", "message": "GET /api/users 200", "status": 200, "route": "/api/users", "method": "GET", "latency_ms": 66}
+{"timestamp": "2026-11-27T09:14:34Z", "level": "info", "message": "GET /api/orders 200", "status": 200, "route": "/api/orders", "method": "GET", "latency_ms": 73}
+{"timestamp": "2026-11-27T09:14:57Z", "level": "info", "message": "GET /api/products 200", "status": 200, "route": "/api/products", "method": "GET", "latency_ms": 41}
+2026-11-27 09:15:00 INFO Deploy v1.4.2 finished, 3 services restarted
+{"timestamp": "2026-11-27T09:15:05Z", "level": "info", "message": "Deploy v1.4.2 finished, 3 services restarted"}
+{"timestamp": "2026-11-27T09:16:00Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1048}
+{"timestamp": "2026-11-27T09:16:10Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 2053}
+{"timestamp": "2026-11-27T09:16:21Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1336}
+{"timestamp": "2026-11-27T09:16:39Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1614}
+{"timestamp": "2026-11-27T09:16:50Z", "level": "warn", "message": "GET /api/orders 503 Service Unavailable", "status": 503, "route": "/api/orders", "method": "GET", "latency_ms": 978}
+{"timestamp": "2026-11-27T09:17:04Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 2012}
+{"timestamp": "2026-11-27T09:17:18Z", "level": "error", "message": "POST /api/checkout 500 Internal Server Error", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1626}
+{"timestamp": "2026-11-27T09:17:38Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 2267}
+{"timestamp": "2026-11-27T09:17:56Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 2258}
+{"timestamp": "2026-11-27T09:18:07Z", "level": "info", "message": "GET /api/products 200", "status": 200, "route": "/api/products", "method": "GET", "latency_ms": 57}
+{"timestamp": "2026-11-27T09:18:21Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1119}
+{"timestamp": "2026-11-27T09:18:39Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1477}
+{"timestamp": "2026-11-27T09:18:58Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1602}
+{"timestamp": "2026-11-27T09:19:11Z", "level": "error", "message": "POST /api/checkout 500 Internal Server Error", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1673}
+{"timestamp": "2026-11-27T09:19:25Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1414}
+{"timestamp": "2026-11-27T09:19:35Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1767}
+{"timestamp": "2026-11-27T09:19:49Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1583}
+{"timestamp": "2026-11-27T09:20:01Z", "level": "error", "message": "POST /api/checkout 500 Internal Server Error", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1068}
+{"timestamp": "2026-11-27T09:20:13Z", "level": "error", "message": "POST /api/checkout 500 Internal Server Error", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1364}
+{"timestamp": "2026-11-27T09:20:29Z", "level": "error", "message": "POST /api/checkout 500 Internal Server Error", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 914}
+{"timestamp": "2026-11-27T09:20:40Z", "level": "info", "message": "GET /api/products 200", "status": 200, "route": "/api/products", "method": "GET", "latency_ms": 59}
+{"timestamp": "2026-11-27T09:20:58Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1656}
+{"timestamp": "2026-11-27T09:21:17Z", "level": "error", "message": "POST /api/checkout 500 Internal Server Error", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1240}
+{"timestamp": "2026-11-27T09:21:29Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1646}
+{"timestamp": "2026-11-27T09:21:39Z", "level": "warn", "message": "GET /api/orders 503 Service Unavailable", "status": 503, "route": "/api/orders", "method": "GET", "latency_ms": 815}
+{"timestamp": "2026-11-27T09:21:59Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1110}
+{"timestamp": "2026-11-27T09:22:14Z", "level": "error", "message": "POST /api/checkout 500 Internal Server Error", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1705}
+{"timestamp": "2026-11-27T09:22:30Z", "level": "info", "message": "GET /api/products 200", "status": 200, "route": "/api/products", "method": "GET", "latency_ms": 59}
+{"timestamp": "2026-11-27T09:22:43Z", "level": "warn", "message": "GET /api/orders 503 Service Unavailable", "status": 503, "route": "/api/orders", "method": "GET", "latency_ms": 781}
+{"timestamp": "2026-11-27T09:22:59Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1580}
+{"timestamp": "2026-11-27T09:23:15Z", "level": "warn", "message": "GET /api/orders 503 Service Unavailable", "status": 503, "route": "/api/orders", "method": "GET", "latency_ms": 854}
+{"timestamp": "2026-11-27T09:23:29Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 2336}
+{"timestamp": "2026-11-27T09:23:40Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 979}
+{"timestamp": "2026-11-27T09:23:57Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1842}
+{"timestamp": "2026-11-27T09:24:12Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1366}
+{"timestamp": "2026-11-27T09:24:25Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1295}
+{"timestamp": "2026-11-27T09:24:41Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1042}
+{"timestamp": "2026-11-27T09:24:55Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1943}
+{"timestamp": "2026-11-27T09:25:11Z", "level": "error", "message": "POST /api/checkout 500 Internal Server Error", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1663}
+{"timestamp": "2026-11-27T09:25:29Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 956}
+{"timestamp": "2026-11-27T09:25:40Z", "level": "warn", "message": "GET /api/orders 503 Service Unavailable", "status": 503, "route": "/api/orders", "method": "GET", "latency_ms": 867}
+{"timestamp": "2026-11-27T09:25:52Z", "level": "error", "message": "POST /api/checkout 500 Internal Server Error", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1071}
+{"timestamp": "2026-11-27T09:26:02Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1789}
+{"timestamp": "2026-11-27T09:26:17Z", "level": "error", "message": "POST /api/checkout 500 Internal Server Error", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1121}
+{"timestamp": "2026-11-27T09:26:33Z", "level": "error", "message": "POST /api/checkout 500 Internal Server Error", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1323}
+{"timestamp": "2026-11-27T09:26:44Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 2080}
+{"timestamp": "2026-11-27T09:26:57Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 2351}
+{"timestamp": "2026-11-27T09:27:13Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 2002}
+{"timestamp": "2026-11-27T09:27:33Z", "level": "error", "message": "POST /api/checkout 500 Internal Server Error", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1559}
+{"timestamp": "2026-11-27T09:27:53Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1783}
+{"timestamp": "2026-11-27T09:28:04Z", "level": "info", "message": "GET /api/products 200", "status": 200, "route": "/api/products", "method": "GET", "latency_ms": 82}
+{"timestamp": "2026-11-27T09:28:23Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1155}
+{"timestamp": "2026-11-27T09:28:37Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 2265}
+{"timestamp": "2026-11-27T09:28:53Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 2327}
+{"timestamp": "2026-11-27T09:29:07Z", "level": "error", "message": "POST /api/checkout 500 Internal Server Error", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 996}
+{"timestamp": "2026-11-27T09:29:23Z", "level": "error", "message": "POST /api/checkout 500 Internal Server Error", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1188}
+{"timestamp": "2026-11-27T09:29:43Z", "level": "error", "message": "POST /api/checkout 500 Internal Server Error", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 978}
+{"timestamp": "2026-11-27T09:30:02Z", "level": "error", "message": "POST /api/checkout 500 Internal Server Error", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1215}
+{"timestamp": "2026-11-27T09:30:20Z", "level": "warn", "message": "GET /api/orders 503 Service Unavailable", "status": 503, "route": "/api/orders", "method": "GET", "latency_ms": 911}
+{"timestamp": "2026-11-27T09:30:34Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 2087}
+{"timestamp": "2026-11-27T09:30:53Z", "level": "error", "message": "POST /api/checkout 500 Internal Server Error", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1276}
+{"timestamp": "2026-11-27T09:31:00Z", "level": "info", "message": "GET /api/users 200", "status": 200, "route": "/api/users", "method": "GET", "latency_ms": 100}
+{"timestamp": "2026-11-27T09:31:30Z", "level": "info", "message": "GET /api/products 200", "status": 200, "route": "/api/products", "method": "GET", "latency_ms": 43}
+{"timestamp": "2026-11-27T09:31:55Z", "level": "info", "message": "GET /api/orders 200", "status": 200, "route": "/api/orders", "method": "GET", "latency_ms": 88}
+{"timestamp": "2026-11-27T09:32:17Z", "level": "info", "message": "GET /api/cart 200", "status": 200, "route": "/api/cart", "method": "GET", "latency_ms": 42}
+{"timestamp": "2026-11-27T09:32:36Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1186}
+{"timestamp": "2026-11-27T09:32:53Z", "level": "info", "message": "GET /api/users 200", "status": 200, "route": "/api/users", "method": "GET", "latency_ms": 59}
+{"timestamp": "2026-11-27T09:33:20Z", "level": "info", "message": "GET /api/users 200", "status": 200, "route": "/api/users", "method": "GET", "latency_ms": 53}
+{"timestamp": "2026-11-27T09:33:35Z", "level": "info", "message": "GET /api/orders 200", "status": 200, "route": "/api/orders", "method": "GET", "latency_ms": 54}
+{"timestamp": "2026-11-27T09:33:55Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 955}
+{"timestamp": "2026-11-27T09:34:13Z", "level": "info", "message": "GET /api/users 200", "status": 200, "route": "/api/users", "method": "GET", "latency_ms": 94}
+{"timestamp": "2026-11-27T09:34:38Z", "level": "info", "message": "GET /api/users 200", "status": 200, "route": "/api/users", "method": "GET", "latency_ms": 99}
+{"timestamp": "2026-11-27T09:35:06Z", "level": "info", "message": "GET /api/users 200", "status": 200, "route": "/api/users", "method": "GET", "latency_ms": 95}
+{"timestamp": "2026-11-27T09:35:35Z", "level": "info", "message": "GET /api/cart 200", "status": 200, "route": "/api/cart", "method": "GET", "latency_ms": 70}
+{"timestamp": "2026-11-27T09:35:58Z", "level": "info", "message": "GET /api/users 200", "status": 200, "route": "/api/users", "method": "GET", "latency_ms": 70}
+{"timestamp": "2026-11-27T09:36:27Z", "level": "info", "message": "GET /api/orders 200", "status": 200, "route": "/api/orders", "method": "GET", "latency_ms": 55}
+{"timestamp": "2026-11-27T09:36:50Z", "level": "info", "message": "GET /api/cart 200", "status": 200, "route": "/api/cart", "method": "GET", "latency_ms": 64}
+{"timestamp": "2026-11-27T09:37:07Z", "level": "info", "message": "GET /api/products 200", "status": 200, "route": "/api/products", "method": "GET", "latency_ms": 49}
+{"timestamp": "2026-11-27T09:37:26Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1117}
+{"timestamp": "2026-11-27T09:37:51Z", "level": "info", "message": "GET /api/users 200", "status": 200, "route": "/api/users", "method": "GET", "latency_ms": 61}
+{"timestamp": "2026-11-27T09:38:19Z", "level": "info", "message": "GET /api/users 200", "status": 200, "route": "/api/users", "method": "GET", "latency_ms": 37}
+{"timestamp": "2026-11-27T09:38:46Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1060}
+{"timestamp": "2026-11-27T09:39:10Z", "level": "info", "message": "GET /api/users 200", "status": 200, "route": "/api/users", "method": "GET", "latency_ms": 88}
+{"timestamp": "2026-11-27T09:39:32Z", "level": "info", "message": "GET /api/users 200", "status": 200, "route": "/api/users", "method": "GET", "latency_ms": 90}
+{"timestamp": "2026-11-27T09:40:02Z", "level": "info", "message": "GET /api/orders 200", "status": 200, "route": "/api/orders", "method": "GET", "latency_ms": 82}
+{"timestamp": "2026-11-27T09:40:29Z", "level": "info", "message": "GET /api/products 200", "status": 200, "route": "/api/products", "method": "GET", "latency_ms": 33}
+{"timestamp": "2026-11-27T09:40:44Z", "level": "info", "message": "GET /api/users 200", "status": 200, "route": "/api/users", "method": "GET", "latency_ms": 38}
+{"timestamp": "2026-11-27T09:41:01Z", "level": "info", "message": "GET /api/users 200", "status": 200, "route": "/api/users", "method": "GET", "latency_ms": 94}
+{"timestamp": "2026-11-27T09:41:21Z", "level": "info", "message": "GET /api/orders 200", "status": 200, "route": "/api/orders", "method": "GET", "latency_ms": 60}
+{"timestamp": "2026-11-27T09:41:42Z", "level": "info", "message": "GET /api/users 200", "status": 200, "route": "/api/users", "method": "GET", "latency_ms": 83}
+{"timestamp": "2026-11-27T09:42:05Z", "level": "info", "message": "GET /api/users 200", "status": 200, "route": "/api/users", "method": "GET", "latency_ms": 45}
+{"timestamp": "2026-11-27T09:42:35Z", "level": "info", "message": "GET /api/orders 200", "status": 200, "route": "/api/orders", "method": "GET", "latency_ms": 43}
+{"timestamp": "2026-11-27T09:43:01Z", "level": "info", "message": "GET /api/products 200", "status": 200, "route": "/api/products", "method": "GET", "latency_ms": 66}
+{"timestamp": "2026-11-27T09:43:17Z", "level": "info", "message": "GET /api/orders 200", "status": 200, "route": "/api/orders", "method": "GET", "latency_ms": 52}
+{"timestamp": "2026-11-27T09:43:32Z", "level": "info", "message": "GET /api/products 200", "status": 200, "route": "/api/products", "method": "GET", "latency_ms": 55}
+{"timestamp": "2026-11-27T09:43:50Z", "level": "info", "message": "GET /api/products 200", "status": 200, "route": "/api/products", "method": "GET", "latency_ms": 41}
+{"timestamp": "2026-11-27T09:44:16Z", "level": "info", "message": "GET /api/products 200", "status": 200, "route": "/api/products", "method": "GET", "latency_ms": 70}
+{"timestamp": "2026-11-27T09:44:34Z", "level": "info", "message": "GET /api/products 200", "status": 200, "route": "/api/products", "method": "GET", "latency_ms": 31}
+{"timestamp": "2026-11-27T09:44:49Z", "level": "info", "message": "GET /api/cart 200", "status": 200, "route": "/api/cart", "method": "GET", "latency_ms": 54}
+{"timestamp": "2026-11-27T09:45:16Z", "level": "error", "message": "Database connection refused: connect ECONNREFUSED 10.0.4.21:5432", "status": 500, "route": "/api/checkout", "method": "POST", "latency_ms": 1407}
+{"timestamp": "2026-11-27T09:45:38Z", "level": "info", "message": "GET /api/orders 200", "status": 200, "route": "/api/orders", "method": "GET", "latency_ms": 59}
+{"timestamp": "2026-11-27T09:45:56Z", "level": "info", "message": "GET /api/orders 200", "status": 200, "route": "/api/orders", "method": "GET", "latency_ms": 67}
+{"timestamp": "2026-11-27T09:46:00Z", "level": "info", "message": "Connection pool recovered, 20 of 20 connections healthy"}
+--- log rotated, previous file archived ---
+    at Connection.connect (node:internal/net:123:45)
